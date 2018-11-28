@@ -8,8 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-
-    <title>Dashboard Template for Bootstrap</title>
+    <title>MyBetterPlanner</title>
 
     <!-- Bootstrap core CSS -->
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -64,16 +63,8 @@
             <li><a href="#">Professor Reviews</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
+            <li><a href="">Presentation</a></li>
+            <li><a href="">About us</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
