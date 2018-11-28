@@ -2,11 +2,7 @@ package com.mybetterplanner.springbootwebapplicationbootstrapjquery.Models;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
-import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.stereotype.Component;
-
-import java.util.*;
 
 @Component
 public class Course {

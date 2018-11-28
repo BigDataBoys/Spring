@@ -5,15 +5,15 @@ import com.mybetterplanner.springbootwebapplicationbootstrapjquery.Repositories.
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/course")
 @ComponentScan
+@ResponseBody
 public class CourseController {
     @Autowired
     private CourseRepository repository;
