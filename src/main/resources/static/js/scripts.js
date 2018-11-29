@@ -7,13 +7,21 @@ request.onload = function () {
   var data = JSON.parse(this.response);
 
   if (request.status >= 200 && request.status < 400) {
+    let htmlString = "";
+
+    //Build the html String in the for loop
     data.forEach(course => {
-      const h1 = document.createElement('h1');
-      h1.textContent = course.course_number;
-      const p = document.createElement('p');
-      p.textcontent = course.class_number;
-      ));
-  } else {
+      htmlString += "<tr class=\"info\">";
+      htmlString += "<td>" + course.course_number + "</td>";
+      htmlString += "<td>" + course.class_number + "</td>";
+      htmlString += "<td>" + course.time + "</td>";
+      htmlString += "<td>" + course.building + "</td>";
+      htmlString += "<td>" + course.instructor + "</td>";
+      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
+      htmlString += "</tr>";
+  });
+  document.getElementById("course-table-data").innerHTML = htmlString;
+} else {
     errorMessage.textContent = `Gah, it's not working!`;
     app.appendChild(errorMessage);
   }
