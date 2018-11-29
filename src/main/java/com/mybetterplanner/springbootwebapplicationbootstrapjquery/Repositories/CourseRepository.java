@@ -16,6 +16,9 @@ public interface CourseRepository extends MongoRepository<Course, String> {
     @Query("{course_number:'?0'}")
     List<Course> findByCourseNumber(String string);
 
+    @Query("{course_number: {$regex: ?0 } }")
+    List<Course> findCourseByRegex(String string);
+
     @Query("{class_number:'?0'}")
     List<Course> findByClassNumber(String string);
 
