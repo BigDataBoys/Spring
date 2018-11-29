@@ -8,6 +8,8 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
     data.forEach(course => {
+      console.log(course.course_number);
+      document.write("<h1>Out with the old - in with the new!</h1>");
       const h1 = document.createElement('h1');
       h1.textContent = course.course_number;
       const p = document.createElement('p');
