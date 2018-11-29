@@ -5,12 +5,13 @@ request.onload = function () {
 
   // Begin accessing JSON data here
   var data = JSON.parse(this.response);
-
+  var pattern = new RegExp("MAT");
   if (request.status >= 200 && request.status < 400) {
     let htmlString = "";
 
     //Build the html String in the for loop
     data.forEach(course => {
+      if(pattern.text(course.course_number)){
       htmlString += "<tr class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
@@ -19,6 +20,7 @@ request.onload = function () {
       htmlString += "<td>" + course.instructor + "</td>";
       htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
       htmlString += "</tr>";
+    }
   });
   document.getElementById("course-table-data").innerHTML = htmlString;
 } else {

@@ -19,6 +19,8 @@
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
 
+    <script src="js/scripts.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -71,20 +73,16 @@
             <h1 class="page-header">Course Dashboard</h1>
 
             <div class="row placeholders">
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/core.png" width="200" height="200" class="img-thumbnail" alt="CS Core thumbnail">
-                    <h4>CS Core</h4>
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-success" type="button"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
+                    <h4>Computer Science</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail">
-                    <h4>CS Electives</h4>
-                </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail">
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-warning" type="button"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
                     <h4>Math</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail">
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-danger" type="button"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
                     <h4>Physics</h4>
                 </div>
             </div>
@@ -104,30 +102,6 @@
                 </tr>
              </thead>
             <tbody id="course-table-data">
-                <tr class="info">
-                    <td>CS1300</td>
-                    <td>02</td>
-                    <td>Mon Wed</td>
-                    <td>8-103</td>
-                    <td>Nima, Davarpanah</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                </tr>
-                <tr class="info">
-                    <td>CS3010</td>
-                    <td>02</td>
-                    <td>Tues Thurs</td>
-                    <td>8-320</td>
-                    <td>Amar, Raheja</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                 </tr>
-                <tr class="info">
-                    <td>CS420</td>
-                    <td>01</td>
-                    <td>Mon Wed</td>
-                    <td>11-10</td>
-                    <td>Eller, Sander</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                </tr>
             </tbody>
           </table>
          </div>
