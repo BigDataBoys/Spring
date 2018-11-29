@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mybetterplanner</groupId>
-	<artifactId>spring-boot-web-application-bootstrap-jquery</artifactId>
+	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-web-application-bootstrap-jquery</name>
+	<name>app</name>
 	<description>Webservice project for Software Engineering</description>
 
 	<parent>
@@ -97,6 +97,14 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/webapp</directory>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -111,6 +119,19 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+
+			<!--
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://mybetterplanner.com:8080/manager/text</url>
+					<server>TomcatServer</server>
+					<path>/app</path>
+				</configuration>
+			</plugin>
+			-->
 
 			<plugin>
 				<!-- Build an executable JAR -->
