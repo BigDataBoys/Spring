@@ -19,6 +19,8 @@
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
 
+    <script src="js/scripts.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -108,37 +110,9 @@
                 </tr>
              </thead>
             <tbody id="course-table-data">
-                <tr class="info">
-                    <td>CS1300</td>
-                    <td>02</td>
-                    <td>Mon Wed</td>
-                    <td>8-103</td>
-                    <td>Nima, Davarpanah</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                </tr>
-                <tr class="info">
-                    <td>CS3010</td>
-                    <td>02</td>
-                    <td>Tues Thurs</td>
-                    <td>8-320</td>
-                    <td>Amar, Raheja</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                 </tr>
-                <tr class="info">
-                    <td>CS420</td>
-                    <td>01</td>
-                    <td>Mon Wed</td>
-                    <td>11-10</td>
-                    <td>Eller, Sander</td>
-                    <td><button type="button" class="btn btn-default btn-md">Add Course</button></td>
-                </tr>
             </tbody>
           </table>
          </div>            
-
-                <hr/>
-                <a href="jsontest">Test Link</a>
-            </div>
         </div>
     </div>
 </div>

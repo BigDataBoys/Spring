@@ -5,18 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class GeneralController {
-    @RequestMapping("/jsontest")
-    public String jsonTest(){
-        return "jsontest";
-    }
-    
-//    @RequestMapping("/jsontest.jsp")
-//	public String jsonTest2() {
-//		return "jsontest.jsp";
-//	}
-    
-    @RequestMapping("/test")
-    public String kappa() {
-    	return "test";
-    }
+// Leave this, its an example of how to map one of our .jsp files
+//    @RequestMapping("/jsontest")
+//    public String jsonTest(){
+//        return "jsontest";
+//    }
+//    
 }
