@@ -72,22 +72,22 @@
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="../../../resources/img/core.png" width="200" height="200" class="img-responsive" alt="CS Core thumbnail">
               <h4>CS Core</h4>
               <!-- <span class="text-muted">Something else</span> -->
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="../../../resources/img/elective.png" width="200" height="200" class="img-responsive" alt="CS Electives thumbnail">
               <h4>CS Electives</h4>
               <!-- <span class="text-muted">Something else</span> -->
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="../../../resources/img/math.png" width="200" height="200" class="img-responsive" alt="Math thumbnail">
               <h4>Math</h4>
               <!-- <span class="text-muted">Something else</span> -->
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="../../../resources/img/physics.png" width="200" height="200" class="img-responsive" alt="Physics thumbnail">
               <h4>Physics</h4>
               <!-- <span class="text-muted">Something else</span> -->
             </div>
