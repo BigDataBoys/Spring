@@ -28,7 +28,7 @@ public class SpringBootWebApplicationBootstrapJqueryApplication {
 		source.registerCorsConfiguration("/**", config);
 		return new CorsFilter(source);
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWebApplicationBootstrapJqueryApplication.class, args);
 	}
