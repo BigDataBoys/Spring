@@ -1,6 +1,9 @@
 # Spring
 MyBetterPlanner FullStack Webservice 2.0
 
+# ALL COMMITS WILL AUTOMATICALLY BUILD
+HOORAY FOR CONTINUOUS INTEGRATION YOU'RE WELCOME GUYS
+
 # How to run
 Import project as a maven project by importing all files and pom.xml
 
