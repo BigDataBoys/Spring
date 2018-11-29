@@ -9,4 +9,14 @@ public class GeneralController {
     public String jsonTest(){
         return "jsontest";
     }
+    
+//    @RequestMapping("/jsontest.jsp")
+//	public String jsonTest2() {
+//		return "jsontest.jsp";
+//	}
+    
+    @RequestMapping("/test")
+    public String kappa() {
+    	return "test";
+    }
 }
