@@ -12,6 +12,7 @@ request.onload = function () {
       h1.textContent = course.course_number;
       const p = document.createElement('p');
       p.textcontent = course.class_number;
+      ));
   } else {
     errorMessage.textContent = `Gah, it's not working!`;
     app.appendChild(errorMessage);
