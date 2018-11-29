@@ -11,7 +11,7 @@ request.onload = function () {
 
     //Build the html String in the for loop
     data.forEach(course => {
-      if(pattern.text(course.course_number)){
+      if(pattern.test(course.course_number)){
       htmlString += "<tr class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
