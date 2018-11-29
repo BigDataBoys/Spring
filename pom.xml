@@ -6,7 +6,7 @@
 	<groupId>com.mybetterplanner</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>app</name>
 	<description>Webservice project for Software Engineering</description>
@@ -97,6 +97,14 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/webapp</directory>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -112,6 +120,7 @@
 				</configuration>
 			</plugin>
 
+			<!--
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
@@ -119,9 +128,10 @@
 				<configuration>
 					<url>http://mybetterplanner.com:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/</path>
+					<path>/app</path>
 				</configuration>
 			</plugin>
+			-->
 
 			<plugin>
 				<!-- Build an executable JAR -->
