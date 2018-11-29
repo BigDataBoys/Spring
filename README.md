@@ -8,7 +8,7 @@ HOORAY FOR CONTINUOUS INTEGRATION YOU'RE WELCOME GUYS
 Import project as a maven project by importing all files and pom.xml
 
 # Ports Information
-localhost:8080
+localhost:80 or localhost
 
 # File Directory Layout
 `src/main/java/com/mybetterplanner/springbootwebapplicationbootstrapjquery`
