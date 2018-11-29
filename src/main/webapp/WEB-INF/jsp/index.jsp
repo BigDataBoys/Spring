@@ -73,20 +73,16 @@
             <h1 class="page-header">Course Dashboard</h1>
 
             <div class="row placeholders">
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/core.png" width="200" height="200" class="img-thumbnail" alt="CS Core thumbnail">
-                    <h4>CS Core</h4>
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-success" type="button"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
+                    <h4>Computer Science</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail">
-                    <h4>CS Electives</h4>
-                </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail">
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-warning" type="button"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
                     <h4>Math</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail">
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <button class="btn btn-danger" type="button"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
                     <h4>Physics</h4>
                 </div>
             </div>
