@@ -8,17 +8,18 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
     data.forEach(course => {
-      console.log(course.course_number);
-      document.write("<h1>Out with the old - in with the new!</h1>");
-      const h1 = document.createElement('h1');
-      h1.textContent = course.course_number;
-      const p = document.createElement('p');
-      p.textcontent = course.class_number;
+      var newDiv = document.createElement("P");
+      var newContent = document.createTextNode(course.course_number);
+      newDiv.appendChild(newContent);
+      document.body.appendChild(newDiv);
+      newContent = document.createTextNode(course.class_number);
+      newDiv.appendChild(newContent);
+      document.body.appendChild(newDiv);
     });
   } else {
     errorMessage.textContent = `Gah, it's not working!`;
     app.appendChild(errorMessage);
   }
-}
+};
 
 request.send();
