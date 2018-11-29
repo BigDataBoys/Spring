@@ -72,19 +72,19 @@
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/core.png" width="200" height="200" class="img-responsive" alt="CS Core thumbnail">
+                    <img src="img/core.png" width="200" height="200" class="img-thumbnail" alt="CS Core thumbnail">
                     <h4>CS Core</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/elective.png" width="200" height="200" class="img-responsive" alt="CS Electives thumbnail">
+                    <img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail">
                     <h4>CS Electives</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/math.png" width="200" height="200" class="img-responsive" alt="Math thumbnail">
+                    <img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail">
                     <h4>Math</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="img/physics.png" width="200" height="200" class="img-responsive" alt="Physics thumbnail">
+                    <img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail">
                     <h4>Physics</h4>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                 </tr>
             </tbody>
           </table>
-         </div>            
+         </div>
 
                 <hr/>
                 <a href="jsontest">Test Link</a>
