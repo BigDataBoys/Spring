@@ -1,18 +1,30 @@
-var request = new XMLHttpRequest();
+ var request = new XMLHttpRequest();
 
-request.open('GET', 'http://mybetterplanner.com/course/', true);
+request.open('GET', 'http://www.mybetterplanner.com/course/', true);
 request.onload = function () {
 
-    // Begin accessing JSON data here
-    var data = JSON.parse(this.response);
+  // Begin accessing JSON data here
+  var data = JSON.parse(this.response);
 
-    if (request.status >= 200 && request.status < 400) {
-        data.forEach(movie => {
-            console.log(movie.title);
-        });
-    } else {
-        console.log('error');
-    }
+  if (request.status >= 200 && request.status < 400) {
+    data.forEach(course => {
+      const h1 = document.createElement('h1');
+      h1.textContent = course.course_number;
+      const p = document.createElement('p');
+      p.textcontent = course.class_number;
+      const p = document.createElement('p');
+      p.textcontent = course.class_number;
+      const p = document.createElement('p');
+      p.textcontent = course.building;
+      const p = document.createElement('p');
+      p.textcontent = course.time;
+      const p = document.createElement('p');
+      p.textcontent = course.instructor;
+    });
+  } else {
+    errorMessage.textContent = `Gah, it's not working!`;
+    app.appendChild(errorMessage);
+  }
 }
 
 request.send();
