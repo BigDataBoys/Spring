@@ -33,6 +33,11 @@ public class CourseController {
         return repository.findByInstructor(instructor);
     }
 
+    @RequestMapping(value = "/course_regex/{id}", method = RequestMethod.GET)
+    public List<Course> getCourseByRegex(@PathVariable("id") String regex) {
+        return repository.findCourseByRegex(regex);
+    }
+
     @RequestMapping(value = "/course_number/{id}", method = RequestMethod.GET)
     public List<Course> getCourseByCourseNumber(@PathVariable("id") String courseNumber) {
         return repository.findByCourseNumber(courseNumber);

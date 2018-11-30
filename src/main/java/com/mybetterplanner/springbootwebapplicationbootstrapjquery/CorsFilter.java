@@ -11,6 +11,8 @@ import java.io.IOException;
 
 /**
  * Filter for enabling CORS support.
+ * Please don't modify any of this. It's used to allow XSS.
+ * Prone to security issues, but at this point, what can we do.
  */
 @Component
 public class CorsFilter extends OncePerRequestFilter {
