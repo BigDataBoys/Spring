@@ -2,7 +2,6 @@
 
 request.open('GET', 'http://www.mybetterplanner.com/course/', true);
 request.onload = function () {
-
   // Begin accessing JSON data here
   var data = JSON.parse(this.response);
   var pattern = new RegExp("PHY");
@@ -11,7 +10,7 @@ request.onload = function () {
 
     //Build the html String in the for loop
     data.forEach(course => {
-      if(pattern.text(course.course_number)){
+      if(pattern.test(course.course_number)){
       htmlString += "<tr class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
@@ -27,6 +26,5 @@ request.onload = function () {
     errorMessage.textContent = `Gah, it's not working!`;
     app.appendChild(errorMessage);
   }
-};
-
+}
 request.send();

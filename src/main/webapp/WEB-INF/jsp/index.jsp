@@ -20,6 +20,7 @@
     <link href="css/dashboard.css" rel="stylesheet">
 
     <script src="js/scripts.js"></script>
+    <!--<script src="js/physicscourses.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -74,15 +75,15 @@
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button class="btn btn-success" type="button"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
+                    <button id="cs-filter-button" class="btn btn-success" type="button" onclick="filterComputerScience()"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
                     <h4>Computer Science</h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button class="btn btn-warning" type="button"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
+                    <button id="math-filter-button" class="btn btn-warning" type="button" onclick="filterMath()"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
                     <h4>Math</h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button class="btn btn-danger" type="button"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
+                    <button id="phy-filter-button" class="btn btn-danger" type="button" onclick="filterPhysics()"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
                     <h4>Physics</h4>
                 </div>
             </div>
@@ -111,7 +112,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
