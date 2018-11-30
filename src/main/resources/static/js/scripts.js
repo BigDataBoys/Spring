@@ -7,8 +7,8 @@ request.open('GET', 'http://www.mybetterplanner.com/course/', true);
 //The methods those clickable buttons call must end with "request.send()" in order to work.
 request.onload = function () {
   data = JSON.parse(this.response);
-
 }
+request.send();
 
 //filterSubject goes through the courses in the data and returns only the ones that matches the subject
 //It does this by using a Regular Expression and checking each course with it.
