@@ -10,36 +10,17 @@ request.onload = function () {
 
 }
 
-function testFunction(){
-  if (request.status >= 200 && request.status < 400) {
-    let htmlString = "";
-
-    //Build the html String in the for loop
-    data.forEach(course => {
-      document.write("test");
-      htmlString += "<tr class=\"info\">";
-      htmlString += "<td>" + course.course_number + "</td>";
-      htmlString += "<td>" + course.class_number + "</td>";
-      htmlString += "<td>" + course.time + "</td>";
-      htmlString += "<td>" + course.building + "</td>";
-      htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
-      htmlString += "</tr>";
-  });
-  document.getElementById("course-table-data").innerHTML = htmlString;
-  }
-  request.send();
-}
-
-//FilterPhysics goes through the classes of data and returns only physics courses
+//filterSubject goes through the courses in the data and returns only the ones that matches the subject
 //It does this by using a Regular Expression and checking each course with it.
-function filterPhysics(){
+//The regular expression uses the parameter subjectPattern
+//subjectPattern should be the abbreviation of the subject Ex: Computer Science = CS, Physics = PHY, etc
+function filterSubject(subjectPattern){
   if(request.status >= 200 && request.status < 400){
-    var pattern = new RegExp("PHY");
+    var regex = new RegExp(subjectPattern);
     let htmlString = "";
     //Build the html String in the for loop accepting only courses that match the RegExp
     data.forEach(course => {
-      if(pattern.test(course.course_number)){
+      if(regex.test(course.course_number)){
       htmlString += "<tr class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
@@ -50,75 +31,10 @@ function filterPhysics(){
       htmlString += "</tr>";
       }
     });
-
-    //Course Filter Button active states are toggled
-    //Course table is populated with filtered courses
-    document.getElementById("cs-filter-button").classList.remove('active');
-    document.getElementById("math-filter-button").classList.remove('active');
-    document.getElementById("phy-filter-button").classList.add('active');
     document.getElementById("course-table-data").innerHTML = htmlString;
   }
   request.send();
 }
-
-//Refer to filterPhysics to understand how this method works
-function filterComputerScience(){
-  if(request.status >= 200 && request.status < 400){
-    var pattern = new RegExp("CS");
-    let htmlString = "";
-    //Build the html String in the for loop accepting only courses that match the RegExp
-    data.forEach(course => {
-      if(pattern.test(course.course_number)){
-      htmlString += "<tr class=\"info\">";
-      htmlString += "<td>" + course.course_number + "</td>";
-      htmlString += "<td>" + course.class_number + "</td>";
-      htmlString += "<td>" + course.time + "</td>";
-      htmlString += "<td>" + course.building + "</td>";
-      htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
-      htmlString += "</tr>";
-      }
-    });
-
-    //Course Filter Button active states are toggled
-    //Course table is populated with filtered courses
-    document.getElementById("cs-filter-button").classList.add('active');
-    document.getElementById("math-filter-button").classList.remove('active');
-    document.getElementById("phy-filter-button").classList.remove('active');
-    document.getElementById("course-table-data").innerHTML = htmlString;
-  }
-  request.send();
-}
-
-//Refer to filterPhysics to understand how this method works
-function filterMath(){
-  if(request.status >= 200 && request.status < 400){
-    var pattern = new RegExp("MAT");
-    let htmlString = "";
-    //Build the html String in the for loop accepting only courses that match the RegExp
-    data.forEach(course => {
-      if(pattern.test(course.course_number)){
-      htmlString += "<tr class=\"info\">";
-      htmlString += "<td>" + course.course_number + "</td>";
-      htmlString += "<td>" + course.class_number + "</td>";
-      htmlString += "<td>" + course.time + "</td>";
-      htmlString += "<td>" + course.building + "</td>";
-      htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
-      htmlString += "</tr>";
-      }
-    });
-
-    //Course Filter Button active states are toggled
-    //Course table is populated with filtered courses
-    document.getElementById("cs-filter-button").classList.remove('active');
-    document.getElementById("math-filter-button").classList.add('active');
-    document.getElementById("phy-filter-button").classList.remove('active');
-    document.getElementById("course-table-data").innerHTML = htmlString;
-  }
-  request.send();
-}
-
 
 //Filtersearch takes in a string input from a textInput element and uses that for the RegExp Pattern
 //It then filters based on that RegExp
@@ -140,17 +56,7 @@ function filterSearch(){
       htmlString += "</tr>";
       }
     });
-
-    //Unclick all buttons
-    document.getElementById("cs-filter-button").classList.remove('active');
-    document.getElementById("math-filter-button").classList.remove('active');
-    document.getElementById("phy-filter-button").classList.remove('active');
     document.getElementById("course-table-data").innerHTML = htmlString;
   }
   request.send();
 }
-
-function test(){
-  document.write("test");
-}
-

@@ -75,15 +75,15 @@
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="cs-filter-button" class="btn btn-success" type="button" onclick="filterComputerScience()"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
+                    <button id="cs-filter-button" class="btn btn-success" type="button" onclick="filterSubject('CS')"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
                     <h4>Computer Science</h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="math-filter-button" class="btn btn-warning" type="button" onclick="filterMath()"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
+                    <button id="math-filter-button" class="btn btn-warning" type="button" onclick="filterSubject('MAT')"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
                     <h4>Math</h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="phy-filter-button" class="btn btn-danger" type="button" onclick="filterPhysics()"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
+                    <button id="phy-filter-button" class="btn btn-danger" type="button" onclick="filterSubject('PHY')"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
                     <h4>Physics</h4>
                 </div>
             </div>
