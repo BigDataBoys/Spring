@@ -119,3 +119,38 @@ function filterMath(){
   request.send();
 }
 
+
+//Filtersearch takes in a string input from a textInput element and uses that for the RegExp Pattern
+//It then filters based on that RegExp
+function filterSearch(){
+  if(request.status >= 200 && request.status < 400){
+    var input = document.getElementById("filter-text-input");
+    var pattern = new RegExp(input.value, 'i');
+    let htmlString = "";
+    //Build the html String in the for loop accepting only courses that match the RegExp
+    data.forEach(course => {
+      if(pattern.test(course.course_number) || pattern.test(course.instructor) || pattern.test(course.time)){
+      htmlString += "<tr class=\"info\">";
+      htmlString += "<td>" + course.course_number + "</td>";
+      htmlString += "<td>" + course.class_number + "</td>";
+      htmlString += "<td>" + course.time + "</td>";
+      htmlString += "<td>" + course.building + "</td>";
+      htmlString += "<td>" + course.instructor + "</td>";
+      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
+      htmlString += "</tr>";
+      }
+    });
+
+    //Unclick all buttons
+    document.getElementById("cs-filter-button").classList.remove('active');
+    document.getElementById("math-filter-button").classList.remove('active');
+    document.getElementById("phy-filter-button").classList.remove('active');
+    document.getElementById("course-table-data").innerHTML = htmlString;
+  }
+  request.send();
+}
+
+function test(){
+  document.write("test");
+}
+

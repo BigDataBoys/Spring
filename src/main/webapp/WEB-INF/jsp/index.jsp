@@ -99,7 +99,7 @@
                     <th>Day(s)/Time</th>
                     <th>Building/Room</th>
                     <th>Professor</th>
-                    <th></th>
+                    <th><input type="text" id="filter-text-input" onkeyup="filterSearch()" placeholder="Search"/></th>
                 </tr>
              </thead>
             <tbody id="course-table-data">
