@@ -19,7 +19,8 @@
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
 
-    <script src="js/scripts.js"></script>
+    <script src="js/coursefilter.js"></script>
+    <script src="js/addcourse.js"></script>
     <!--<script src="js/physicscourses.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -90,7 +91,7 @@
                 </div>
             </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <h2>Core Courses</h2>
             <p>Add Courses from this list</p>
             <table class="table table-striped">

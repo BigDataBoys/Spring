@@ -21,13 +21,17 @@ function filterSubject(subjectPattern){
     //Build the html String in the for loop accepting only courses that match the RegExp
     data.forEach(course => {
       if(regex.test(course.course_number)){
-      htmlString += "<tr class=\"info\">";
+      
+      //Assign an id to the course's table row, the id of the row is the same as the course's id
+      htmlString += "<tr " + "id=\"" + course._id + "\"" + "class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
       htmlString += "<td>" + course.time + "</td>";
       htmlString += "<td>" + course.building + "</td>";
       htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
+
+      //Assign an id to the table data that contains the button, the id of the row is the course's id + "_buttonContainer"
+      htmlString += "<td id=\"" + course._id + "_buttonContainer\"><button type=\"button\" class=\"btn btn-default btn-md\" onclick=\"addCourse('" + course._id + "')\">Add Course</button></td>";
       htmlString += "</tr>";
       }
     });
@@ -46,13 +50,13 @@ function filterSearch(){
     //Build the html String in the for loop accepting only courses that match the RegExp
     data.forEach(course => {
       if(pattern.test(course.course_number) || pattern.test(course.instructor) || pattern.test(course.time)){
-      htmlString += "<tr class=\"info\">";
+      htmlString += "<tr " + "id=\"" + course._id + "\"" + "class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
       htmlString += "<td>" + course.time + "</td>";
       htmlString += "<td>" + course.building + "</td>";
       htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" class=\"btn btn-default btn-md\">Add Course</button></td>";
+      htmlString += "<td><button type=\"button\" id=\"" + course._id + "_button\"" + "class=\"btn btn-default btn-md\" onclick=\"addCourse('" + course._id + "')>Add Course</button></td>";
       htmlString += "</tr>";
       }
     });
