@@ -49,14 +49,14 @@ function filterSearch(){
     let htmlString = "";
     //Build the html String in the for loop accepting only courses that match the RegExp
     data.forEach(course => {
-      if(pattern.test(course.course_number) || pattern.test(course.instructor) || pattern.test(course.time)){
+      if(pattern.test(course.course_number) || pattern.test(course.instructor) || pattern.test(course.time) || pattern.test(course.building)){
       htmlString += "<tr " + "id=\"" + course._id + "\"" + "class=\"info\">";
       htmlString += "<td>" + course.course_number + "</td>";
       htmlString += "<td>" + course.class_number + "</td>";
       htmlString += "<td>" + course.time + "</td>";
       htmlString += "<td>" + course.building + "</td>";
       htmlString += "<td>" + course.instructor + "</td>";
-      htmlString += "<td><button type=\"button\" id=\"" + course._id + "_button\"" + "class=\"btn btn-default btn-md\" onclick=\"addCourse('" + course._id + "')>Add Course</button></td>";
+      htmlString += "<td id=\"" + course._id + "_buttonContainer\"><button type=\"button\" class=\"btn btn-default btn-md\" onclick=\"addCourse('" + course._id + "')\">Add Course</button></td>";
       htmlString += "</tr>";
       }
     });
