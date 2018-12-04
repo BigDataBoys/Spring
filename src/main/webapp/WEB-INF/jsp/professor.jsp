@@ -61,8 +61,8 @@
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
                     <li><a href="..">Courses</a></li>
-                    <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
-                    <li><a href="professor">Professor Reviews</a></li>
+                    <li><a href="schedule">Schedule</a></li>
+                    <li class = "active"><a href="professor">Professor Reviews<span class = "sr-only">(current)</span></a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
                   <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing" target="_blank">Presentation</a></li>
@@ -73,45 +73,33 @@
                 <h1 class="page-header">Course Dashboard</h1>
 
             <div class="container-fluid">
-                <h2>Your Schedule</h2>
+                <h2>Your Professors</h2>
                 <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Class #</th>
-                        <th>Section #</th>
-                        <th>Day(s)/Time</th>
-                        <th>Building/Room</th>
                         <th>Professor</th>
+                        <th>Subject</th>
+                        <th>Koofers</th>
+                        <th>Rate My Professors</th>
                     </tr>
                  </thead>
                 <tbody>
                   <tr>
-                    <th scope = "row">CS 1300</th>
-                    <td>31642</td>
-                    <td>TuTh 3:00 PM &#8208; 4:50 PM</td>
-                    <td>8 302</td>
-                    <td>Johannsen,David L</td>
+                    <th scope = "row">Johannsen,David L</th>
+                    <td>CS</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
                   </tr>
                   <tr>
-                    <th scope = "row">CS 2400</th>
-                    <td>31647</td>
-                    <td>MWF 9:30 AM &#8208; 10:35 AM</td>
-                    <td>8 302</td>
-                    <td>Ji,Hao</td>
+                    <th scope = "row">Ji,Hao</th>
+                    <td>CS</td>
+                    <td>N/A</td>
+                    <td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=2171915" target="_blank">link</a></td>
                   </tr>
                   <tr>
-                    <th scope = "row">MAT 1052</th>
-                    <td>32364</td>
-                    <td>MW 4:00 PM &#8208; 5:15 PM</td>
-                    <td>98C 5-018</td>
-                    <td>Staff</td>
-                  </tr>
-                  <tr>
-                    <th scope = "row">PHY 1050</th>
-                    <td>35133</td>
-                    <td>Tu 1:00 PM &#8208; 2:50 PM</td>
-                    <td>3 2011</td>
-                    <td>Mireles,Hector</td>
+                    <th scope = "row">Mireles,Hector</th>
+                    <td><a href="https://www.koofers.com/california-state-polytechnic-university-pomona-csupomona/instructors/mireles-266197/" target="_blank">link</a></td>
+                    <td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=362579" target="_blank">link</a></td>
                   </tr>
                 </tbody>
               </table>
