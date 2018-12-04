@@ -10,5 +10,9 @@ public class GeneralController {
 //    public String jsonTest(){
 //        return "jsontest";
 //    }
-//    
+//
+    @RequestMapping("/schedule")
+    public String showSchedulePage(){
+        return "schedule";
+    }
 }
