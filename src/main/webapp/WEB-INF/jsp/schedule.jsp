@@ -36,7 +36,7 @@
       <div class="row">
           <div class="col-sm-3 col-md-2 sidebar">
               <ul class="nav nav-sidebar">
-                  <li><a href="index">Courses</a></li>
+                  <li><a href="mybetterplanner.com">Courses</a></li>
                   <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
                   <li><a href="#">My History</a></li>
                   <li><a href="#">Professor Reviews</a></li>
