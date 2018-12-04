@@ -32,70 +32,93 @@
 
 </head>
 <body>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-sm-3 col-md-2 sidebar">
-              <ul class="nav nav-sidebar">
-                  <li><a href="..">Courses</a></li>
-                  <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
-                  <li><a href="#">My History</a></li>
-                  <li><a href="#">Professor Reviews</a></li>
-              </ul>
-              <ul class="nav nav-sidebar">
-                <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing">Presentation</a></li>
-                <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html">About us</a></li>
-              </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">My Better Planner</a>
           </div>
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-              <h1 class="page-header">Course Dashboard</h1>
-
-          <div class="container-fluid">
-              <h2>Your Schedule</h2>
-              <table class="table table-striped">
-              <thead>
-                  <tr>
-                      <th>Class #</th>
-                      <th>Section #</th>
-                      <th>Day(s)/Time</th>
-                      <th>Building/Room</th>
-                      <th>Professor</th>
-                  </tr>
-               </thead>
-              <tbody>
-                <tr>
-                  <th scope = "row">CS 1300</th>
-                  <td>31642</td>
-                  <td>TuTh 3:00 PM &#8208; 4:50 PM</td>
-                  <td>8 302</td>
-                  <td>Johannsen,David L</td>
-                </tr>
-                <tr>
-                  <th scope = "row">CS 2400</th>
-                  <td>31647</td>
-                  <td>MWF 9:30 AM &#8208; 10:35 AM</td>
-                  <td>8 302</td>
-                  <td>Ji,Hao</td>
-                </tr>
-                <tr>
-                  <th scope = "row">MAT 1052</th>
-                  <td>32364</td>
-                  <td>MW 4:00 PM &#8208; 5:15 PM</td>
-                  <td>98C 5-018</td>
-                  <td>Staff</td>
-                </tr>
-                <tr>
-                  <th scope = "row">PHY 1050</th>
-                  <td>35133</td>
-                  <td>Tu 1:00 PM &#8208; 2:50 PM</td>
-                  <td>3 2011</td>
-                  <td>Mireles,Hector</td>
-                </tr>
-              </tbody>
-            </table>
-           </div>
-              </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Help</a></li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                  <input type="text" class="form-control" placeholder="Search...">
+              </form>
           </div>
       </div>
+  </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li><a href="..">Courses</a></li>
+                    <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
+                    <li><a href="https://koofers.com/california-state-polytechnic-university-pomona-csupomona/professors">Professor Reviews</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                  <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing">Presentation</a></li>
+                  <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <h1 class="page-header">Course Dashboard</h1>
+
+            <div class="container-fluid">
+                <h2>Your Schedule</h2>
+                <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Class #</th>
+                        <th>Section #</th>
+                        <th>Day(s)/Time</th>
+                        <th>Building/Room</th>
+                        <th>Professor</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                  <tr>
+                    <th scope = "row">CS 1300</th>
+                    <td>31642</td>
+                    <td>TuTh 3:00 PM &#8208; 4:50 PM</td>
+                    <td>8 302</td>
+                    <td>Johannsen,David L</td>
+                  </tr>
+                  <tr>
+                    <th scope = "row">CS 2400</th>
+                    <td>31647</td>
+                    <td>MWF 9:30 AM &#8208; 10:35 AM</td>
+                    <td>8 302</td>
+                    <td>Ji,Hao</td>
+                  </tr>
+                  <tr>
+                    <th scope = "row">MAT 1052</th>
+                    <td>32364</td>
+                    <td>MW 4:00 PM &#8208; 5:15 PM</td>
+                    <td>98C 5-018</td>
+                    <td>Staff</td>
+                  </tr>
+                  <tr>
+                    <th scope = "row">PHY 1050</th>
+                    <td>35133</td>
+                    <td>Tu 1:00 PM &#8208; 2:50 PM</td>
+                    <td>3 2011</td>
+                    <td>Mireles,Hector</td>
+                  </tr>
+                </tbody>
+              </table>
+             </div>
+                </div>
+            </div>
+        </div>
  <!-- Bootstrap core JavaScript
  ================================================== -->
  <!-- Placed at the end of the document so the pages load faster -->

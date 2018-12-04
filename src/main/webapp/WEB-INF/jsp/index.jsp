@@ -47,8 +47,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Login</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
@@ -65,8 +65,7 @@
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Courses <span class="sr-only">(current)</span></a></li>
                 <li><a href="schedule">Schedule</a></li>
-                <li><a href="#">My History</a></li>
-                <li><a href="#">Professor Reviews</a></li>
+                <li><a href="https://koofers.com/california-state-polytechnic-university-pomona-csupomona/professors">Professor Reviews</a></li>
             </ul>
             <ul class="nav nav-sidebar">
                 <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing">Presentation</a></li>
@@ -109,9 +108,6 @@
             </tbody>
           </table>
          </div>
-
-                <hr/>
-                <a href="jsontest">Test Link</a>
             </div>
         </div>
     </div>
