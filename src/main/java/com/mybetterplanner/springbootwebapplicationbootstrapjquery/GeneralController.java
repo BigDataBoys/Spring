@@ -25,9 +25,4 @@ public class GeneralController {
     public String showProfessorPage(){
         return "professor";
     }
-
-    @RequestMapping("/welcome")
-    public String showWelcomePage(){
-        return "welcome";
-    }
 }
