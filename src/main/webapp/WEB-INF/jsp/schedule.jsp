@@ -36,7 +36,7 @@
       <div class="row">
           <div class="col-sm-3 col-md-2 sidebar">
               <ul class="nav nav-sidebar">
-                  <li><a href="mybetterplanner.com">Courses</a></li>
+                  <li><a href="">Courses</a></li>
                   <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
                   <li><a href="#">My History</a></li>
                   <li><a href="#">Professor Reviews</a></li>
@@ -65,30 +65,30 @@
                 <tr>
                   <th scope = "row">CS 1300</th>
                   <td>31642</td>
-                  <td>3:00 PM–4:50 PM   TuTh</td>
+                  <td>3:00 PM â€¢ 4:50 PM TuTh</td>
                   <td>8 302</td>
                   <td>Johannsen,David L</td>
                 </tr>
                 <tr>
                   <th scope = "row">CS 2400</th>
                   <td>31647</td>
-                  <td>	9:30 AM–10:35 AM   MWF</td>
+                  <td>9:30 AMâ€¢10:35 AM MWF</td>
                   <td>8 302</td>
                   <td>Ji,Hao</td>
                 </tr>
                 <tr>
-                  <th scope = "row">MAT 1052/th>
+                  <th scope = "row">MAT 1052</th>
                   <td>32364</td>
-                  <td>4:00 PM–5:15 PM   MW</td>
+                  <td>4:00 PMâ€¢5:15 PM MW</td>
                   <td>98C 5-018</td>
-                  <td>	Staff</td>
+                  <td>Staff</td>
                 </tr>
                 <tr>
                   <th scope = "row">PHY 1050</th>
                   <td>35133</td>
-                  <td>1:00 PM–2:50 PM   TuMWF</td>
+                  <td>1:00 PMâ€¢2:50 PM TuMWF</td>
                   <td>3 2011</td>
-                  <td>	Mireles,Hector</td>
+                  <td>Mireles,Hector</td>
                 </tr>
               </tbody>
             </table>
