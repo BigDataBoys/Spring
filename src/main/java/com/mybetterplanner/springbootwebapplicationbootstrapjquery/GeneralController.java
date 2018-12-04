@@ -15,9 +15,19 @@ public class GeneralController {
     public String showSchedulePage(){
         return "schedule";
     }
-    
+
+    @RequestMapping("/login")
+    public String showLoginPage(){
+        return "login";
+    }
+
     @RequestMapping("/professor")
-    public String showProf() {
-    	return "professor";
+    public String showProfessorPage(){
+        return "professor";
+    }
+
+    @RequestMapping("/welcome")
+    public String showWelcomePage(){
+        return "welcome";
     }
 }
