@@ -65,28 +65,28 @@
                 <tr>
                   <th scope = "row">CS 1300</th>
                   <td>31642</td>
-                  <td>3:00 PM&#8259;4:50 PM TuTh</td>
+                  <td>3:00 PM &#8208; 4:50 PM TuTh</td>
                   <td>8 302</td>
                   <td>Johannsen,David L</td>
                 </tr>
                 <tr>
                   <th scope = "row">CS 2400</th>
                   <td>31647</td>
-                  <td>9:30&#8259;10:35 AM MWF</td>
+                  <td>9:30 AM &#8208; 10:35 AM MWF</td>
                   <td>8 302</td>
                   <td>Ji,Hao</td>
                 </tr>
                 <tr>
                   <th scope = "row">MAT 1052</th>
                   <td>32364</td>
-                  <td>4:00 PM&#8259;5:15 PM MW</td>
+                  <td>4:00 PM &#8208; 5:15 PM MW</td>
                   <td>98C 5-018</td>
                   <td>Staff</td>
                 </tr>
                 <tr>
                   <th scope = "row">PHY 1050</th>
                   <td>35133</td>
-                  <td>1:00 PM&#8259;2:50 PM TuMWF</td>
+                  <td>1:00 PM &#8208; 2:50 PM TuMWF</td>
                   <td>3 2011</td>
                   <td>Mireles,Hector</td>
                 </tr>
