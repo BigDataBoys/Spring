@@ -15,4 +15,9 @@ public class GeneralController {
     public String showSchedulePage(){
         return "schedule";
     }
+    
+    @RequestMapping("/professor")
+    public String showProf() {
+    	return "professor";
+    }
 }
