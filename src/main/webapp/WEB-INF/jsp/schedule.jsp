@@ -62,11 +62,11 @@
                 <ul class="nav nav-sidebar">
                     <li><a href="..">Courses</a></li>
                     <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
-                    <li><a href="https://koofers.com/california-state-polytechnic-university-pomona-csupomona/professors">Professor Reviews</a></li>
+                    <li><a href="https://koofers.com/california-state-polytechnic-university-pomona-csupomona/professors" target="_blank">Professor Reviews</a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
-                  <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing">Presentation</a></li>
-                  <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html">About us</a></li>
+                  <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing" target="_blank">Presentation</a></li>
+                  <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html" target="_blank">About us</a></li>
                 </ul>
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
