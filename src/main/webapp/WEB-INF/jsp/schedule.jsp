@@ -36,14 +36,14 @@
       <div class="row">
           <div class="col-sm-3 col-md-2 sidebar">
               <ul class="nav nav-sidebar">
-                  <li class="active"><a href="#">Courses <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">Schedule</a></li>
+                  <li><a href="index">Courses</a></li>
+                  <li class = "active"><a href="schedule">Schedule<span class = "sr-only">(current)</span></a></li>
                   <li><a href="#">My History</a></li>
                   <li><a href="#">Professor Reviews</a></li>
               </ul>
               <ul class="nav nav-sidebar">
-                  <li><a href="">Presentation</a></li>
-                  <li><a href="">About us</a></li>
+                <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing">Presentation</a></li>
+                <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html">About us</a></li>
               </ul>
           </div>
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
