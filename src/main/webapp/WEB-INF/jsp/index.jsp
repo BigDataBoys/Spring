@@ -28,8 +28,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    
+
+
 </head>
 
 <body>
@@ -64,7 +64,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Courses <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Schedule</a></li>
+                <li><a href="mybetterplanner.com/schedule">Schedule</a></li>
                 <li><a href="#">My History</a></li>
                 <li><a href="#">Professor Reviews</a></li>
             </ul>
