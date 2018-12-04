@@ -65,7 +65,7 @@
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Courses <span class="sr-only">(current)</span></a></li>
                 <li><a href="schedule">Schedule</a></li>
-                <li><a href="professor">Professor Reviews</a></li>
+                <li><a href="https://www.koofers.com/california-state-polytechnic-university-pomona-csupomona/">Professor Reviews</a></li>
             </ul>
             <ul class="nav nav-sidebar">
                 <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing" target="_blank">Presentation</a></li>
