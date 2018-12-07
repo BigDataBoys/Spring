@@ -73,7 +73,7 @@
                 <h1 class="page-header">Course Dashboard</h1>
 
             <div class="container-fluid">
-                <h2>Your Professors</h2>
+                <h2>Professor Reviews</h2>
                 <table class="table table-striped">
                 <thead>
                     <tr>
@@ -85,19 +85,20 @@
                  </thead>
                 <tbody>
                   <tr>
-                    <th scope = "row">Johannsen,David L</th>
+                    <th scope = "row">Johannsen, David L</th>
                     <td>CS</td>
                     <td>N/A</td>
                     <td>N/A</td>
                   </tr>
                   <tr>
-                    <th scope = "row">Ji,Hao</th>
+                    <th scope = "row">Ji, Hao</th>
                     <td>CS</td>
                     <td>N/A</td>
                     <td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=2171915" target="_blank">link</a></td>
                   </tr>
                   <tr>
-                    <th scope = "row">Mireles,Hector</th>
+                    <th scope = "row">Mireles, Hector</th>
+                    <td>PHY</td>
                     <td><a href="https://www.koofers.com/california-state-polytechnic-university-pomona-csupomona/instructors/mireles-266197/" target="_blank">link</a></td>
                     <td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=362579" target="_blank">link</a></td>
                   </tr>
