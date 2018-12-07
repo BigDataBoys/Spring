@@ -74,48 +74,49 @@
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1 class="page-header">Course Dashboard</h1>
-
-            <div class="row placeholders">
-                <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="cs-filter-button" class="btn btn-success" type="button" onclick="filterSubject('CS')"><img src="img/elective.png" width="200" height="200" class="img-thumbnail" alt="CS Electives thumbnail"></button>
-                    <h4>Computer Science</h4>
-                </div>
-                <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="math-filter-button" class="btn btn-warning" type="button" onclick="filterSubject('MAT')"><img src="img/math.png" width="200" height="200" class="img-thumbnail" alt="Math thumbnail"></button>
-                    <h4>Math</h4>
-                </div>
-                <div class="col-xs-6 col-sm-4 placeholder">
-                    <button id="phy-filter-button" class="btn btn-danger" type="button" onclick="filterSubject('PHY')"><img src="img/physics.png" width="200" height="200" class="img-thumbnail" alt="Physics thumbnail"></button>
-                    <h4>Physics</h4>
+        <h1 class="page-header">GPA Calculator</h1>
+            <div class="container-fluid">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Semester GPA</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-2"><input class="form-control" type="text" placeholder="e.g. Course 1"/></div>
+                            
+                            <div class="col-sm-5"><form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="grade">Grade:</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="grade">
+                                            <option disabled selected>-</option>
+                                            <option>A</option>
+                                            <option>A-</option>
+                                            <option>B+</option>
+                                            <option>B</option>
+                                            <option>B-</option>
+                                            <option>C+</option>
+                                            <option>C</option>
+                                            <option>C-</option>
+                                            <option>D+</option>
+                                            <option>D</option>
+                                            <option>D-</option>
+                                            <option>F</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form></div>
+                            
+                            <div class="col-sm-5"><form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="units">Units:</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="units" placeholder="enter units">
+                                    </div>
+                                </div>
+                            </form></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-        <div class="container-fluid">
-            <h2>Core Courses</h2>
-            <p>Add Courses from this list</p>
-            <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Class #</th>
-                    <th>Section #</th>
-                    <th>Day(s)/Time</th>
-                    <th>Building/Room</th>
-                    <th>Professor</th>
-                    <th><input type="text" id="filter-text-input" onkeyup="filterSearch()" placeholder="Search"/></th>
-                </tr>
-             </thead>
-            <tbody id="course-table-data">
-            </tbody>
-          </table>
-         </div>
-
-         <div class="container-fluid">
-            <div class="form-group">
-                <label for="classes">Amount of classes currently taking:</label>
-                <input type="text" class="form-control" id="class-ammount"/>
-            </div>
-        </div>
             </div>
         </div>
     </div>

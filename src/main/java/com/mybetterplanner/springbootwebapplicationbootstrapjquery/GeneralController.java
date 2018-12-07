@@ -25,4 +25,9 @@ public class GeneralController {
     public String showProfessorPage(){
         return "professor";
     }
+    
+    @RequestMapping("/gpa_calculator")
+    public String showGPA() {
+    	return "gpa_calculator";
+    }
 }
