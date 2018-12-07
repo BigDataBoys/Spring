@@ -76,29 +76,24 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         <h1 class="page-header">GPA Calculator</h1>
-            <div class="container-fluid">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-sm-3">Semester GPA</div>
-                            <button class="btn btn-info col-sm-3 col-sm-offset-5" type="button" onclick="addClass()">Add Class</button>
-                        </div>
-                    </div>
-                    <div class="panel-body" id="class_container">
+            
+            <div class="container-fluid" id="semester_container">
+                <button class="btn btn-info col-sm-6 col-sm-offset-3" id="semester-button" type="button" onclick="addSemester('1')">Add A Semester</button>
+                <br/>
+                <br/>
+                <br/>
+                
                         <!--<button class="btn btn-info col-sm-6 col-sm-offset-3" type="button" onclick="addClass()">Add Class</button>
                         <br/>
                         <br/>
                         <br/>-->
-                        <div class="row" id="class_holder">
-
-                        </div>
                         
-                    </div>
-                </div>
-            </div>
+                    
+                
             </div>
         </div>
     </div>
+</div>
 
 
 <!-- Bootstrap core JavaScript
