@@ -109,13 +109,6 @@
             </tbody>
           </table>
          </div>
-
-         <div class="container-fluid">
-            <div class="form-group">
-                <label for="classes">Amount of classes currently taking:</label>
-                <input type="text" class="form-control" id="class-ammount"/>
-            </div>
-        </div>
             </div>
         </div>
     </div>

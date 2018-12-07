@@ -21,6 +21,7 @@
 
     <script src="js/coursefilter.js"></script>
     <script src="js/addcourse.js"></script>
+    <script src="js/gpa.js"></script>
     <!--<script src="js/physicscourses.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -77,43 +78,21 @@
         <h1 class="page-header">GPA Calculator</h1>
             <div class="container-fluid">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Semester GPA</div>
-                    <div class="panel-body">
+                    <div class="panel-heading">
                         <div class="row">
-                            <div class="col-sm-2"><input class="form-control" type="text" placeholder="e.g. Course 1"/></div>
-                            
-                            <div class="col-sm-5"><form class="form-horizontal">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-2" for="grade">Grade:</label>
-                                    <div class="col-sm-10">
-                                        <select class="form-control" id="grade">
-                                            <option disabled selected>-</option>
-                                            <option>A</option>
-                                            <option>A-</option>
-                                            <option>B+</option>
-                                            <option>B</option>
-                                            <option>B-</option>
-                                            <option>C+</option>
-                                            <option>C</option>
-                                            <option>C-</option>
-                                            <option>D+</option>
-                                            <option>D</option>
-                                            <option>D-</option>
-                                            <option>F</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </form></div>
-                            
-                            <div class="col-sm-5"><form class="form-horizontal">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-2" for="units">Units:</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="units" placeholder="enter units">
-                                    </div>
-                                </div>
-                            </form></div>
+                            <div class="col-sm-3">Semester GPA</div>
+                            <button class="btn btn-info col-sm-3 col-sm-offset-5" type="button" onclick="addClass()">Add Class</button>
                         </div>
+                    </div>
+                    <div class="panel-body" id="class_container">
+                        <!--<button class="btn btn-info col-sm-6 col-sm-offset-3" type="button" onclick="addClass()">Add Class</button>
+                        <br/>
+                        <br/>
+                        <br/>-->
+                        <div class="row" id="class_holder">
+
+                        </div>
+                        
                     </div>
                 </div>
             </div>
