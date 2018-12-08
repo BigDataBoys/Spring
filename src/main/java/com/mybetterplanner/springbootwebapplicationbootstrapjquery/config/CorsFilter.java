@@ -1,4 +1,4 @@
-package com.mybetterplanner.springbootwebapplicationbootstrapjquery.configs;
+package com.mybetterplanner.springbootwebapplicationbootstrapjquery.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;

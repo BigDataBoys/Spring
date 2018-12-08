@@ -1,4 +1,4 @@
-package com.mybetterplanner.springbootwebapplicationbootstrapjquery.controllers;
+package com.mybetterplanner.springbootwebapplicationbootstrapjquery.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package com.mybetterplanner.springbootwebapplicationbootstrapjquery.controllers;
+package com.mybetterplanner.springbootwebapplicationbootstrapjquery.controller;
 
-import com.mybetterplanner.springbootwebapplicationbootstrapjquery.models.Course;
-import com.mybetterplanner.springbootwebapplicationbootstrapjquery.repositories.CourseRepository;
+import com.mybetterplanner.springbootwebapplicationbootstrapjquery.model.Course;
+import com.mybetterplanner.springbootwebapplicationbootstrapjquery.repository.CourseRepository;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;

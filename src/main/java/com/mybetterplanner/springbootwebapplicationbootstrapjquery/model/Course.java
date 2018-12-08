@@ -1,11 +1,11 @@
-package com.mybetterplanner.springbootwebapplicationbootstrapjquery.models;
+package com.mybetterplanner.springbootwebapplicationbootstrapjquery.model;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Course{
+public class Course {
 
 	@Id
 	private ObjectId _id;
