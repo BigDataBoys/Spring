@@ -46,7 +46,7 @@ function addSemester(semester_number){
     semesterHtml += "<div class='panel panel-default'>";
     semesterHtml += "<div class='panel-heading'>";
     semesterHtml += "<div class='row'>";
-    semesterHtml += "<div class='col-sm-2 btn'><strong>Semester " + semester_number + " GPA:</strong></div>";
+    semesterHtml += "<div class='col-sm-2 btn'><strong>Semester " + semester_number + "</strong></div>";
     semesterHtml += "<div class='col-sm-1 btn' id='semester_" + semester_number + "_gpa'></div>"
     semesterHtml += "<button class='btn btn-info col-sm-3 col-sm-offset-2' type='button' onclick='calculateSemester(" + semester_number + ")'>Calculate Semester GPA</button>";
     semesterHtml += "<button class='btn btn-success col-sm-2 col-sm-offset-1' type='button' onclick='addClass(" + classTarget + "," + semester_number + ")'>Add Class&nbsp;&nbsp;<span class='glyphicon glyphicon-plus'></span></button>";

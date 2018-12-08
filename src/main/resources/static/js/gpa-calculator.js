@@ -27,8 +27,7 @@ function calculateSemester(semester_number){
         }
     }
     var gpa = gradePoints/totalUnits;
-    var rounded = Math.round(gpa*100)/100;
-    $("#semester_" + semester_number + "_gpa").html(rounded);
+    $("#semester_" + semester_number + "_gpa").html(gpa);
 }
 
 function calculateOverall(){
@@ -45,6 +44,5 @@ function calculateOverall(){
         }
     }
     var gpa = gradePoints/totalUnits;
-    var rounded = Math.round(gpa*100)/100;
-    $("#overallGPA").html("<strong>" + rounded + "</strong>");   
+    $("#overallGPA").html("<strong>" + gpa + "</strong>");   
 }
