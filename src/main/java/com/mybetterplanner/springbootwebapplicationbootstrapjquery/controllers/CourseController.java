@@ -1,4 +1,4 @@
-package com.mybetterplanner.springbootwebapplicationbootstrapjquery;
+package com.mybetterplanner.springbootwebapplicationbootstrapjquery.controllers;
 
 import com.mybetterplanner.springbootwebapplicationbootstrapjquery.Models.Course;
 import com.mybetterplanner.springbootwebapplicationbootstrapjquery.Repositories.CourseRepository;
