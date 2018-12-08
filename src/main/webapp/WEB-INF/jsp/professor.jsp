@@ -70,7 +70,6 @@
 		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			<h1 class="page-header">Course Dashboard</h1>
 
-<<<<<<< HEAD
             <div class="container-fluid">
                 <h2>Professor Reviews</h2>
                 <table class="table table-striped">
@@ -717,53 +716,3 @@
  <script src="js/ie10-viewport-bug-workaround.js"></script>
  </body>
  </html>
-=======
-			<div class="container-fluid">
-				<h2>Professor Reviews</h2>
-				<table class="table table-striped">
-					<thead>
-					<tr>
-						<th>Professor</th>
-						<th>Subject</th>
-						<th>Koofers</th>
-						<th>Rate My Professors</th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<th scope = "row">Johannsen, David L</th>
-						<td>CS</td>
-						<td>N/A</td>
-						<td>N/A</td>
-					</tr>
-					<tr>
-						<th scope = "row">Ji, Hao</th>
-						<td>CS</td>
-						<td>N/A</td>
-						<td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=2171915" target="_blank">link</a></td>
-					</tr>
-					<tr>
-						<th scope = "row">Mireles, Hector</th>
-						<td>PHY</td>
-						<td><a href="https://www.koofers.com/california-state-polytechnic-university-pomona-csupomona/instructors/mireles-266197/" target="_blank">link</a></td>
-						<td><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=362579" target="_blank">link</a></td>
-					</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="webjars/jquery/3.3.1/jquery.min.js"><\/script>')</script>
-<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-<script src="js/vendor/holder.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
->>>>>>> 3e51bbf07c22d763e2ea8286543d8f78ddbee128
