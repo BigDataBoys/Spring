@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface CourseRepository extends MongoRepository<Course, String> {
+public interface CourseRepository extends MongoRepository<Course, String>{
 	Course findBy_id(ObjectId _id);
 
 	@Query("{course_number:'?0'}")
