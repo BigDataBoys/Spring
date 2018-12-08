@@ -62,7 +62,7 @@
 	<div class="row">
 		<div class="col-sm-3 col-md-2 sidebar">
 			<ul class="nav nav-sidebar">
-				<li><a href="#">Courses <span class="sr-only">(current)</span></a></li>
+				<li><a href="..">Courses <span class="sr-only">(current)</span></a></li>
 				<li><a href="schedule">Schedule</a></li>
 				<li><a href="professor">Professor Reviews</a></li>
 				<li class="active"><a href="gpa_calculator">GPA Calculator</a></li>
