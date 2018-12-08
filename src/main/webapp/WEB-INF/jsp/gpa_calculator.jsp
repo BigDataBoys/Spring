@@ -21,7 +21,8 @@
 
     <script src="js/coursefilter.js"></script>
     <script src="js/addcourse.js"></script>
-    <script src="js/gpa.js"></script>
+    <script src="js/gpa-formatter.js"></script>
+    <script src="js/gpa-calculator.js"></script>
     <!--<script src="js/physicscourses.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -74,23 +75,16 @@
                 <li><a href="http://cs480-projects.github.io/teams-fall2018/BigDataBoys/index.html" target="_blank">About us</a></li>
             </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="content-container">
         <h1 class="page-header">GPA Calculator</h1>
             
             <div class="container-fluid" id="semester_container">
-                <button class="btn btn-info col-sm-6 col-sm-offset-3" id="semester-button" type="button" onclick="addSemester('1')">Add A Semester</button>
+                <button class="btn btn-success col-sm-6 col-sm-offset-3" id="semester-button" type="button" onclick="addFirstSemester()">Add A Semester &nbsp;&nbsp;<span class="glyphicon glyphicon-plus"></span></button>
                 <br/>
                 <br/>
                 <br/>
-                
-                        <!--<button class="btn btn-info col-sm-6 col-sm-offset-3" type="button" onclick="addClass()">Add Class</button>
-                        <br/>
-                        <br/>
-                        <br/>-->
-                        
-                    
-                
             </div>
+            <br/>
         </div>
     </div>
 </div>
