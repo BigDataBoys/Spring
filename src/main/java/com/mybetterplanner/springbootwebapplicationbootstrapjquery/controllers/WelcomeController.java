@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WelcomeController {
-    @RequestMapping("/welcome")
-    public String loginMessage(){
-        return "welcome";
-    }
+	@RequestMapping("/welcome")
+	public String loginMessage(){
+		return "welcome";
+	}
 }
