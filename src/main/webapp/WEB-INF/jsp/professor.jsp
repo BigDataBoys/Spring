@@ -63,6 +63,7 @@
                     <li><a href="..">Courses</a></li>
                     <li><a href="schedule">Schedule</a></li>
                     <li class = "active"><a href="professor">Professor Reviews<span class = "sr-only">(current)</span></a></li>
+                    <li><a href="gpa_calculator">GPA Calculator</a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
                   <li><a href="https://docs.google.com/presentation/d/11YbPiwgowl2TnCZHMRZ6YP1GTHLecgzf4niwb05aHks/edit?usp=sharing" target="_blank">Presentation</a></li>
